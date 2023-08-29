@@ -1,0 +1,102 @@
+
+*{ 
+    margin:  0px;
+    padding: 0px;
+
+
+}
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: aqua;
+}
+.container a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.container a:hover{
+    cursor: pointer;
+    color: yellow;
+    transition: 1s;
+}
+.menu a{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.menu{
+    margin: 10px;
+}
+.meio{
+    image-resolution: 10px;
+    background-color: yellow;
+    padding: 10px;
+    background-image: url(/Imagem/fundo5.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card{
+    border: 2px solid black;
+    background-color: aqua;
+    text-align: center;
+    padding: 40px;
+    width: 200px;
+    margin: auto;
+}
+
+.card:hover{
+    background-color: blue;
+    transition: 1s;
+}
+
+#botao{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#botao:hover{
+    background-color: aqua;
+    transition: 2s;
+}
+
+.cell img{
+    background-color: aqua;
+    margin: 20px;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.info{
+    color: antiquewhite;
+    font-size: 20px;
+    background-color: aqua;
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+    background-image: url(/Imagem/fundo5.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.rodape{
+    background-color: aqua;
+    padding: 60px;
+    margin-top: 20px;
+}
+
+
