@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/Imagem/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/Stylo/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site aula</title>
@@ -46,10 +47,26 @@
         
         
         <footer class="rodape">
+        <i class="fa fa-facebook"></i>    
+
             <i>facebook</i>
+        <i class="fa fa-camera-retro"></i> fa fa-camera-retro></i>   
             <i>Instragram</i>
+        <i class="fa fa-whastzap"></i>    
             <i>Whatzap</i>
-            </footer>
+
+        </footer>
+
+        <script>
+
+            const hamburguer = document.querselector('.hamburguer')
+            const mobileMenu = document.querselector('.mobile-menu')
+
+            hamburguer.addEventListener('click',() =>{
+                mobileMenu.classList.toggle('active');
+            });
+
+        </script>
 
 
 
